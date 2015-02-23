@@ -1,0 +1,72 @@
+<!-- create a standard html page, call it whatever (index.htm/contact) -->
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<meta charset="utf-8">
+
+<title></title>
+
+</head>
+
+
+<body>
+
+<!-- design your page, now below is a basic form code within a table to organize it -->
+
+
+
+<!-- BEGIN CONTACT FORM CODE -->
+  <div class="panel panel-default">
+  	<div class="panel-body">
+    
+
+
+<table style="width:900px" align="center">
+ <form action="contact.php" method="post">
+   <tr>
+     <td>E-Mail</td>	
+  </tr>
+ 
+   <tr>
+     <td>
+ 
+       <div class="form-group">
+       Name&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="cf_name">
+       </div><br />
+       
+       <div class="form-group">
+       E-Mail Address&nbsp;:&nbsp;<input type="text" name="cf_email">
+       </div><br />
+       
+       <div class="form-group">
+       Message :<br />
+       <textarea name="cf_message" cols="32" rows="6"></textarea>
+       </div>
+       
+       <div class="form-group">
+       <!--  <p class="help-block">Example block-level help text here./display text</p> -->
+       </div>
+       <br />
+       
+       <button type="submit" class="btn btn-default">Submit</button>
+       <button type="reset" class="btn btn-default">Clear</button>
+       
+     </td>
+   </tr>
+ 
+ </form>
+</table>
+
+<!-- END CONTACT FORM CODE -->
+
+
+<!-- continue developing page code here like footer/etc.. -->
+
+
+</body>
+</html>
